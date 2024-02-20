@@ -162,7 +162,65 @@
 .banner .wrap img{
     display: block;
     width: 730px;
+    cursor: pointer;
 }
-
-
+.download{
+    position: absolute;
+    top: 0;
+    z-index:20;
+    right:-1px;
+    width: 254px;
+    height:285px;
+    background-image: url('../img/download.png');
+}
+a.downloadBtn{
+    display: block;
+    width: 215px;
+    height: 56px;
+    margin: 186px 0 0 19px;
+     
+}
+/* 轮播点 */
+.dots{
+    position:relative;
+    width: 730px;
+    height:20px ;
+    top: -23px;
+    left: 0;
+    text-align: center;
+}
+.dots a{
+    display: inline-block;
+    width: 20px;
+    height: 15px;
+    background-image: url('../img/botwhite.png') ;
+}
+.dots a:hover{
+    background-image: url('../img/botRed.png');
+}
+/* 轮播箭头 */
+.banner .wrap a.arrl{
+    display:block;
+    width: 37px;
+    height: 63px;
+    background-image: url('../img/arrl.png');
+    position: absolute;
+    top: 115px;
+    left:-60px;
+}
+.banner .wrap a.arrl:hover{
+    background-image: url('../img/arrlHover.png');
+}
+.banner .wrap a.arrr{
+    display:block;
+    width: 37px;
+    height: 63px;
+    background-image: url('../img/arrr.png');
+    position: absolute;
+    top: 115px;
+    right:-60px;
+}
+.banner .wrap a.arrr:hover{
+    background-image: url('../img/arrrHover.png');
+}
 /*  */
